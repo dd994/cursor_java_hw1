@@ -15,5 +15,3 @@
 15. git checkout master // select master branch as default
 16. git merge dev // connection change in one main branch
 17. git push // synchronize  local rep with remote rep 
-
-цей документ таком має бути в репозиторії 
