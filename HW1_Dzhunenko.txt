@@ -1,0 +1,19 @@
+1. https://github.com/ button "New" and enter name of repositiry //c
+2. git init // this command create local repository, after selecting the desired folder
+3. git remote add origin https://github.com/dd994/cursor_java_hw1.git  // this command connects to a remote repository on githab
+4. git status //cheking is allright
+5. echo 1 > 1.txt // creating file  
+6. git add . // addition creating file to git index
+7. git commit -m "first commit"  // saving  file to local repository 
+8. git push -u origin master // this command mean to synchronize  local rep with remote rep 
+9. git branch dev //creating new branch
+10 git checkout  dev // selecting branch
+11.echo and other code > 2.txt  //creating new file in branch dev 
+12. git add . // addition creating file to git index
+13. git commit -m "creating second file" // saving to the  branch dev in local rep
+14. git push origin dev // synchronize  whith dev branch in remote rep
+15. git checkout master // select master branch as default
+16. git merge dev // connection change in one main branch
+17. git push // synchronize  local rep with remote rep 
+
+цей документ таком має бути в репозиторії 
